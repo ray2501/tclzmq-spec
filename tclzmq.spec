@@ -11,8 +11,10 @@ Url:            https://github.com/jdc8/tclzmq
 Group:          Development/Libraries/Tcl
 Source:         %{name}-%{version}.tar.gz
 BuildRequires:  tcl >= 8.5
+BuildRequires:  tcllib
 BuildRequires:  critcl >= 3.0
 BuildRequires:  critcl-devel >= 3.0
+BuildRequires:  libuuid-devel
 BuildRequires:  zeromq-devel >= 3.3
 Requires:       tcl >= 8.5
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
