@@ -9,7 +9,7 @@ License:        LGPL V3
 Summary:        Tcl wrapper for zeromq
 Url:            https://github.com/jdc8/tclzmq
 Group:          Development/Libraries/Tcl
-Source:         tclzmq-4.0.1.tar.gz
+Source:         %{name}-%{version}.tar.gz
 BuildRequires:  tcl >= 8.5
 BuildRequires:  critcl >= 3.0
 BuildRequires:  critcl-devel >= 3.0
