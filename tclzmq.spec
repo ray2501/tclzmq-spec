@@ -5,7 +5,7 @@
 Name:           tclzmq
 Version:        4.0.1
 Release:        0
-License:        LGPL V3
+License:        LGPL-3.0-only
 Summary:        Tcl wrapper for zeromq
 Url:            https://github.com/jdc8/tclzmq
 Group:          Development/Libraries/Tcl
